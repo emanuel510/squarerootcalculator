@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(16, 2, 30);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    color: white;
+}
+#box{
+    background-color: rgba(16, 2, 30);
+    border: 10px solid white;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px;
+    margin: auto;
+    min-width: 900px;
+    min-height: 600px;
+    transition: box-shadow 1s;
+}
+#box:hover{
+    box-shadow: 0px 0px 50px;
+}
+#mainText{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 60px;
+    display: inline-block;
+    border-bottom: 5px solid white;
+    border-radius: 5px;
+    padding-bottom: 5px;
+    transition: font-size 1s;
+}
+#mainText:hover{
+    font-size: 70px;
+}
+#textForInput{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 35px;
+    transition: font-size 1s;
+}
+#textForInput:hover{
+    font-size: 40px;
+}
+input{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+    background-color: rgb(16, 2, 30);
+    border-radius: 10px;
+    border: 2px solid white;
+    color: white;
+    transition: font-size 1s;
+}
+input:hover{
+    font-size: 22.5px;
+}
+#result{
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 35px;
+    transition: font-size 1s;
+}
+#result:hover{
+    font-size: 40px;
+}
+button{
+    background-color: rgb(16, 2, 30);
+    color: white;
+    border: 5px solid white;
+    border-radius: 20px;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 35px;
+    transition: font-size 1s;
+    box-shadow: 0px 0px 10px white;
+}
+button:hover{
+    font-size: 40px;
+}
+button:active{
+    background-color: rgb(0, 0, 0);
+}
